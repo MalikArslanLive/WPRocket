@@ -1,0 +1,4 @@
+WP Rocket provides custom functions for clearing and preloading the cache. In order to run these at specific times each day, we can use a cron job.
+//The WordPress cron is run by the wp_cron() function, which is hooked to run on the init hook, which runs on every page load.
+//wp_cron() is defined in wp-includes/cron.php and hooked in wp-includes/default-filters.php.
+
